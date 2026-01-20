@@ -1,7 +1,7 @@
 
 
   html,body{
-    background-color: #F5E7C6;
+    background-color: #f7f1e1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
@@ -23,7 +23,12 @@
     background: #f7f1e1;
     padding: 30px;
     border-radius: 16px;
-    text-align: center;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .profile-role{
+    padding: 8px;
   }
   
   .about-page {
@@ -38,7 +43,6 @@
     background: #f7f1e1;
     padding: 40px;
     border-radius: 14px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     text-align: center;
   }
   
